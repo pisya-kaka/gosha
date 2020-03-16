@@ -20,6 +20,9 @@
 
     echo "<br/>".$bool_3."<br/>".$bool_4."<br/>".$bool_5."<br/>".$bool_6;
 
+    $bool = !($x != $y && $z < $x) || $x != $y;
+
+    echo "<br/>$bool = |! ($x != $y && $z < $x) || $x != $y";
 
 
 
