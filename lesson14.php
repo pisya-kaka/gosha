@@ -1,15 +1,15 @@
     <?php
-    function prinWords () {
-        echo "hello!";
+    function prinWords ($word) {
+        echo $word;
     }
     $x = 12;
     $y = 35;
 
     $sum = $x + $y;
-    prinWords();
-    echo $sum ;
-    
+    prinWords($sum);
+
      ?>
+    
 
 
 
