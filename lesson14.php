@@ -1,15 +1,21 @@
     <?php
-    function prinWords ($word) {
+    function prinWords ($word)
+    {
         echo $word;
+    }
+    function math ($first, $second) {
+        $summa = $first + $second;
+        $return $summa;
     }
     $x = 12;
     $y = 35;
 
-    $sum = $x + $y;
+    $sum = math  ($x, $y);
     prinWords($sum);
 
      ?>
-    
+
+
 
 
 
