@@ -12,9 +12,16 @@
         //echo "Переменная x = $x<br/>";
     }
     test ();
-    echo "Переменная x = $x<br/>";
+    function test_2 () {
+        static $id;
+        $id++;
+        echo $id."<br/>";
+    }
+    for ($i = 0; $i <10; $i++) {
+        test_2 ();
+    }
 
-
+    
 
 
 
