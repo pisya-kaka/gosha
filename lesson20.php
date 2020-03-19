@@ -22,7 +22,7 @@
     echo  "Is array -".is_array($x)."<br/>";
     echo  "Type -".gettype($x)."<br/>";
     echo  "Type -".gettype($null)."<br/>";
-    
+
 
 
 
