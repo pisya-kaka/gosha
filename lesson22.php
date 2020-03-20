@@ -15,7 +15,7 @@
     echo "<br/>".strtolower($string)."<br/>".strtoupper($string);
      echo md5("123")."<br/>";
      echo trim("     string    sd sd     ");
-     
+
     
     
 
